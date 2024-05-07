@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msgfolder/msg/MachineStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module msgfolder {
+  module msg {
+    struct MachineStatus {
+      boolean is_synced;
+
+      boolean sequense_started;
+
+      boolean machine_moving;
+
+      uint8 sequense_nr;
+
+      uint8 error_nr;
+
+      uint16 interval;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      builtin_interfaces::msg::Time start_time;
+
+      builtin_interfaces::msg::Time finished_time;
+    };
+  };
+};

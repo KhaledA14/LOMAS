@@ -1,0 +1,4 @@
+/home/pi/test_ws/build/msgfolder/rosidl_adapter/msgfolder:msg/MachineCommand.idl
+/home/pi/test_ws/build/msgfolder/rosidl_adapter/msgfolder:msg/MachineStatus.idl
+/home/pi/test_ws/build/msgfolder/rosidl_adapter/msgfolder:msg/WateringCommand.idl
+/home/pi/test_ws/build/msgfolder/rosidl_adapter/msgfolder:msg/WateringStatus.idl

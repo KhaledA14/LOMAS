@@ -1,0 +1,11 @@
+setup.py
+msgfolder/__init__.py
+msgfolder.egg-info/PKG-INFO
+msgfolder.egg-info/SOURCES.txt
+msgfolder.egg-info/dependency_links.txt
+msgfolder.egg-info/top_level.txt
+msgfolder/msg/__init__.py
+msgfolder/msg/_machine_command.py
+msgfolder/msg/_machine_status.py
+msgfolder/msg/_watering_command.py
+msgfolder/msg/_watering_status.py

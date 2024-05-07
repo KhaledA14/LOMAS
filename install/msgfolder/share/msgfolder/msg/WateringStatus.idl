@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msgfolder/msg/WateringStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module msgfolder {
+  module msg {
+    struct WateringStatus {
+      boolean watering;
+
+      uint8 interval;
+
+      uint8 duration;
+
+      uint8 zones;
+
+      uint8 error_nr;
+
+      builtin_interfaces::msg::Time start_time;
+
+      builtin_interfaces::msg::Time finished_time;
+    };
+  };
+};

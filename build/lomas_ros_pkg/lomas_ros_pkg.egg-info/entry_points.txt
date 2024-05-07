@@ -1,0 +1,4 @@
+[console_scripts]
+machine_node_2 = lomas_ros_pkg.machine_node_2:main
+watering_node_2 = lomas_ros_pkg.watering_node_2:main
+

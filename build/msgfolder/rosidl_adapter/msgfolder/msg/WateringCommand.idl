@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msgfolder/msg/WateringCommand.msg
+// generated code does not contain a copyright notice
+
+
+module msgfolder {
+  module msg {
+    struct WateringCommand {
+      uint8 command;
+    };
+  };
+};

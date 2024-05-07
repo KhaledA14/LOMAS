@@ -1,0 +1,8 @@
+msg/MachineCommand.idl
+msg/MachineCommand.msg
+msg/MachineStatus.idl
+msg/MachineStatus.msg
+msg/WateringCommand.idl
+msg/WateringCommand.msg
+msg/WateringStatus.idl
+msg/WateringStatus.msg

@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/test_ws/build/msgfolder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/test_ws/src/msgfolder -DCMAKE_INSTALL_PREFIX=/home/pi/test_ws/install/msgfolder
+Invoked command in '/home/pi/test_ws/build/msgfolder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/test_ws/src/msgfolder -DCMAKE_INSTALL_PREFIX=/home/pi/test_ws/install/msgfolder
+Invoking command in '/home/pi/test_ws/build/msgfolder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/test_ws/build/msgfolder -- -j4 -l4
+Invoked command in '/home/pi/test_ws/build/msgfolder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/test_ws/build/msgfolder -- -j4 -l4
+Invoking command in '/home/pi/test_ws/build/msgfolder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/test_ws/build/msgfolder
+Invoked command in '/home/pi/test_ws/build/msgfolder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/test_ws/build/msgfolder

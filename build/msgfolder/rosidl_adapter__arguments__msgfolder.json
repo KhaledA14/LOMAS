@@ -1,0 +1,9 @@
+{
+  "package_name": "msgfolder",
+  "non_idl_tuples": [
+    "/home/pi/test_ws/src/msgfolder:msg/MachineCommand.msg",
+    "/home/pi/test_ws/src/msgfolder:msg/MachineStatus.msg",
+    "/home/pi/test_ws/src/msgfolder:msg/WateringCommand.msg",
+    "/home/pi/test_ws/src/msgfolder:msg/WateringStatus.msg"
+  ]
+}

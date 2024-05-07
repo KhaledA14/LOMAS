@@ -1,0 +1,23 @@
+[2.851s] Invoking command in '/home/pi/test_ws/src/lomas_ros_pkg': PYTHONPATH=/home/pi/test_ws/build/lomas_ros_pkg/prefix_override:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lomas_ros_pkg build --build-base /home/pi/test_ws/build/lomas_ros_pkg/build install --record /home/pi/test_ws/build/lomas_ros_pkg/install.log --single-version-externally-managed install_data
+[3.934s] running egg_info
+[3.937s] writing ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/PKG-INFO
+[3.938s] writing dependency_links to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/dependency_links.txt
+[3.939s] writing entry points to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/entry_points.txt
+[3.940s] writing requirements to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/requires.txt
+[3.940s] writing top-level names to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/top_level.txt
+[3.948s] reading manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'
+[3.952s] writing manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'
+[3.952s] running build
+[3.953s] running build_py
+[3.955s] running install
+[3.956s] running install_lib
+[3.963s] running install_data
+[3.963s] copying package.xml -> /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg
+[3.964s] running install_egg_info
+[3.970s] removing '/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[3.972s] Copying ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info to /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg-0.0.1-py3.10.egg-info
+[3.977s] running install_scripts
+[4.056s] Installing machine_node_2 script to /home/pi/test_ws/install/lomas_ros_pkg/lib/lomas_ros_pkg
+[4.056s] Installing watering_node_2 script to /home/pi/test_ws/install/lomas_ros_pkg/lib/lomas_ros_pkg
+[4.058s] writing list of installed files to '/home/pi/test_ws/build/lomas_ros_pkg/install.log'
+[4.175s] Invoked command in '/home/pi/test_ws/src/lomas_ros_pkg' returned '0': PYTHONPATH=/home/pi/test_ws/build/lomas_ros_pkg/prefix_override:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lomas_ros_pkg build --build-base /home/pi/test_ws/build/lomas_ros_pkg/build install --record /home/pi/test_ws/build/lomas_ros_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,680 @@
+[0.000000] (-) TimerEvent: {}
+[0.001584] (lomas_ros_pkg) JobQueued: {'identifier': 'lomas_ros_pkg', 'dependencies': OrderedDict()}
+[0.002114] (msgfolder) JobQueued: {'identifier': 'msgfolder', 'dependencies': OrderedDict()}
+[0.002300] (lomas_ros_pkg) JobStarted: {'identifier': 'lomas_ros_pkg'}
+[0.027967] (msgfolder) JobStarted: {'identifier': 'msgfolder'}
+[0.099004] (-) TimerEvent: {}
+[0.199637] (-) TimerEvent: {}
+[0.300344] (-) TimerEvent: {}
+[0.401000] (-) TimerEvent: {}
+[0.501597] (-) TimerEvent: {}
+[0.602183] (-) TimerEvent: {}
+[0.702827] (-) TimerEvent: {}
+[0.803423] (-) TimerEvent: {}
+[0.904004] (-) TimerEvent: {}
+[1.004620] (-) TimerEvent: {}
+[1.105272] (-) TimerEvent: {}
+[1.206002] (-) TimerEvent: {}
+[1.218934] (msgfolder) JobProgress: {'identifier': 'msgfolder', 'progress': 'cmake'}
+[1.220098] (msgfolder) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/test_ws/src/msgfolder', '-DCMAKE_INSTALL_PREFIX=/home/pi/test_ws/install/msgfolder'], 'cwd': '/home/pi/test_ws/build/msgfolder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.106 55130 22'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/test_ws/install/msgfolder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/test_ws/install/lomas_ros_pkg/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '88'), ('AMENT_PREFIX_PATH', '/home/pi/test_ws/install/msgfolder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('PWD', '/home/pi/test_ws/build/msgfolder'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 55130 192.168.0.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/test_ws/install/msgfolder:/opt/ros/humble')]), 'shell': False}
+[1.306227] (-) TimerEvent: {}
+[1.407092] (-) TimerEvent: {}
+[1.484857] (msgfolder) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.507446] (-) TimerEvent: {}
+[1.608755] (-) TimerEvent: {}
+[1.709443] (-) TimerEvent: {}
+[1.740819] (msgfolder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.768232] (msgfolder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.809631] (-) TimerEvent: {}
+[1.910329] (-) TimerEvent: {}
+[2.011741] (-) TimerEvent: {}
+[2.071589] (msgfolder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.096301] (msgfolder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.097197] (msgfolder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.098635] (msgfolder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.110643] (msgfolder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.111837] (-) TimerEvent: {}
+[2.212538] (-) TimerEvent: {}
+[2.313586] (-) TimerEvent: {}
+[2.414544] (-) TimerEvent: {}
+[2.454736] (msgfolder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.480175] (msgfolder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.481230] (msgfolder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.482881] (msgfolder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.506158] (msgfolder) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.514681] (-) TimerEvent: {}
+[2.615874] (-) TimerEvent: {}
+[2.717219] (-) TimerEvent: {}
+[2.850469] (-) TimerEvent: {}
+[2.951163] (-) TimerEvent: {}
+[3.052094] (-) TimerEvent: {}
+[3.137928] (lomas_ros_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lomas_ros_pkg', 'build', '--build-base', '/home/pi/test_ws/build/lomas_ros_pkg/build', 'install', '--record', '/home/pi/test_ws/build/lomas_ros_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/test_ws/src/lomas_ros_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.106 55130 22', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/test_ws/install/msgfolder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/test_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'sv_SE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/test_ws/install/lomas_ros_pkg/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sv_SE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '88', 'AMENT_PREFIX_PATH': '/home/pi/test_ws/install/msgfolder:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'PWD': '/home/pi/test_ws/build/lomas_ros_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.106 55130 192.168.0.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/test_ws/build/lomas_ros_pkg/prefix_override:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'sv_SE.UTF-8', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/test_ws/install/msgfolder'}, 'shell': False}
+[3.152207] (-) TimerEvent: {}
+[3.253580] (-) TimerEvent: {}
+[3.355263] (-) TimerEvent: {}
+[3.360613] (msgfolder) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.455471] (-) TimerEvent: {}
+[3.556167] (-) TimerEvent: {}
+[3.656941] (-) TimerEvent: {}
+[3.757772] (-) TimerEvent: {}
+[3.858457] (-) TimerEvent: {}
+[3.916491] (msgfolder) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.958661] (-) TimerEvent: {}
+[4.059285] (-) TimerEvent: {}
+[4.160010] (-) TimerEvent: {}
+[4.191033] (msgfolder) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.234719] (msgfolder) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.260148] (-) TimerEvent: {}
+[4.293372] (msgfolder) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.360319] (-) TimerEvent: {}
+[4.364200] (lomas_ros_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.366704] (lomas_ros_pkg) StdoutLine: {'line': b'creating ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info\n'}
+[4.367497] (lomas_ros_pkg) StdoutLine: {'line': b'writing ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/PKG-INFO\n'}
+[4.368572] (lomas_ros_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/dependency_links.txt\n'}
+[4.369243] (lomas_ros_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/entry_points.txt\n'}
+[4.369819] (lomas_ros_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/requires.txt\n'}
+[4.370377] (lomas_ros_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/top_level.txt\n'}
+[4.371284] (lomas_ros_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'\n"}
+[4.374870] (msgfolder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.378615] (lomas_ros_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'\n"}
+[4.381696] (lomas_ros_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'\n"}
+[4.382345] (lomas_ros_pkg) StdoutLine: {'line': b'running build\n'}
+[4.382828] (lomas_ros_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.383250] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/build/lomas_ros_pkg/build\n'}
+[4.383851] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/build/lomas_ros_pkg/build/lib\n'}
+[4.384306] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg\n'}
+[4.384631] (lomas_ros_pkg) StdoutLine: {'line': b'copying lomas_ros_pkg/watering_node_2.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg\n'}
+[4.385107] (lomas_ros_pkg) StdoutLine: {'line': b'copying lomas_ros_pkg/__init__.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg\n'}
+[4.385602] (lomas_ros_pkg) StdoutLine: {'line': b'copying lomas_ros_pkg/machine_node_2.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg\n'}
+[4.386402] (lomas_ros_pkg) StdoutLine: {'line': b'copying lomas_ros_pkg/seq_generation_node.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg\n'}
+[4.387083] (lomas_ros_pkg) StdoutLine: {'line': b'copying lomas_ros_pkg/gcodesender_test.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg\n'}
+[4.388268] (lomas_ros_pkg) StdoutLine: {'line': b'running install\n'}
+[4.389509] (lomas_ros_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.392663] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg\n'}
+[4.393299] (lomas_ros_pkg) StdoutLine: {'line': b'copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/watering_node_2.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg\n'}
+[4.394493] (lomas_ros_pkg) StdoutLine: {'line': b'copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/__init__.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg\n'}
+[4.395261] (lomas_ros_pkg) StdoutLine: {'line': b'copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/machine_node_2.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg\n'}
+[4.396183] (lomas_ros_pkg) StdoutLine: {'line': b'copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/seq_generation_node.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg\n'}
+[4.396983] (lomas_ros_pkg) StdoutLine: {'line': b'copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/gcodesender_test.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg\n'}
+[4.399487] (lomas_ros_pkg) StdoutLine: {'line': b'byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/watering_node_2.py to watering_node_2.cpython-310.pyc\n'}
+[4.403887] (lomas_ros_pkg) StdoutLine: {'line': b'byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[4.405156] (lomas_ros_pkg) StdoutLine: {'line': b'byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/machine_node_2.py to machine_node_2.cpython-310.pyc\n'}
+[4.411603] (lomas_ros_pkg) StdoutLine: {'line': b'byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/seq_generation_node.py to seq_generation_node.cpython-310.pyc\n'}
+[4.412882] (lomas_ros_pkg) StdoutLine: {'line': b'byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/gcodesender_test.py to gcodesender_test.cpython-310.pyc\n'}
+[4.414734] (lomas_ros_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.415314] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/share\n'}
+[4.416111] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index\n'}
+[4.416659] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index/resource_index\n'}
+[4.417152] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index/resource_index/packages\n'}
+[4.417657] (lomas_ros_pkg) StdoutLine: {'line': b'copying resource/lomas_ros_pkg -> /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index/resource_index/packages\n'}
+[4.418018] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg\n'}
+[4.418535] (lomas_ros_pkg) StdoutLine: {'line': b'copying package.xml -> /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg\n'}
+[4.419097] (lomas_ros_pkg) StdoutLine: {'line': b'creating /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg/launch\n'}
+[4.419617] (lomas_ros_pkg) StdoutLine: {'line': b'copying launch/complete.launch.xml -> /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg/launch\n'}
+[4.420004] (lomas_ros_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.426250] (lomas_ros_pkg) StdoutLine: {'line': b'Copying ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info to /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg-0.0.1-py3.10.egg-info\n'}
+[4.431569] (lomas_ros_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.460482] (-) TimerEvent: {}
+[4.498932] (msgfolder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.513554] (lomas_ros_pkg) StdoutLine: {'line': b'Installing machine_node_2 script to /home/pi/test_ws/install/lomas_ros_pkg/lib/lomas_ros_pkg\n'}
+[4.514246] (lomas_ros_pkg) StdoutLine: {'line': b'Installing watering_node_2 script to /home/pi/test_ws/install/lomas_ros_pkg/lib/lomas_ros_pkg\n'}
+[4.515797] (lomas_ros_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/pi/test_ws/build/lomas_ros_pkg/install.log'\n"}
+[4.560785] (-) TimerEvent: {}
+[4.640311] (lomas_ros_pkg) CommandEnded: {'returncode': 0}
+[4.661183] (-) TimerEvent: {}
+[4.686822] (lomas_ros_pkg) JobEnded: {'identifier': 'lomas_ros_pkg', 'rc': 0}
+[4.761379] (-) TimerEvent: {}
+[4.795051] (msgfolder) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.861557] (-) TimerEvent: {}
+[4.962310] (-) TimerEvent: {}
+[5.063132] (-) TimerEvent: {}
+[5.164169] (-) TimerEvent: {}
+[5.264816] (-) TimerEvent: {}
+[5.365446] (-) TimerEvent: {}
+[5.466091] (-) TimerEvent: {}
+[5.566781] (-) TimerEvent: {}
+[5.667439] (-) TimerEvent: {}
+[5.768096] (-) TimerEvent: {}
+[5.868733] (-) TimerEvent: {}
+[5.969299] (-) TimerEvent: {}
+[6.067732] (msgfolder) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.069452] (-) TimerEvent: {}
+[6.170017] (-) TimerEvent: {}
+[6.270642] (-) TimerEvent: {}
+[6.371273] (-) TimerEvent: {}
+[6.472049] (-) TimerEvent: {}
+[6.572671] (-) TimerEvent: {}
+[6.673320] (-) TimerEvent: {}
+[6.774058] (-) TimerEvent: {}
+[6.874679] (-) TimerEvent: {}
+[6.975485] (-) TimerEvent: {}
+[7.076721] (-) TimerEvent: {}
+[7.178002] (-) TimerEvent: {}
+[7.278755] (-) TimerEvent: {}
+[7.379393] (-) TimerEvent: {}
+[7.480090] (-) TimerEvent: {}
+[7.580720] (-) TimerEvent: {}
+[7.681317] (-) TimerEvent: {}
+[7.723878] (msgfolder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.781488] (-) TimerEvent: {}
+[7.882144] (-) TimerEvent: {}
+[7.982788] (-) TimerEvent: {}
+[8.083435] (-) TimerEvent: {}
+[8.184078] (-) TimerEvent: {}
+[8.284720] (-) TimerEvent: {}
+[8.362971] (msgfolder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.384953] (-) TimerEvent: {}
+[8.470217] (msgfolder) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.485064] (-) TimerEvent: {}
+[8.487295] (msgfolder) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.585264] (-) TimerEvent: {}
+[8.603245] (msgfolder) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.604062] (msgfolder) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.604467] (msgfolder) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.604810] (msgfolder) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.685410] (-) TimerEvent: {}
+[8.704299] (msgfolder) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.785581] (-) TimerEvent: {}
+[8.886287] (-) TimerEvent: {}
+[8.922553] (msgfolder) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.959850] (msgfolder) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.986486] (-) TimerEvent: {}
+[9.087153] (-) TimerEvent: {}
+[9.138502] (msgfolder) StdoutLine: {'line': b'-- Generating done\n'}
+[9.150446] (msgfolder) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/test_ws/build/msgfolder\n'}
+[9.171059] (msgfolder) CommandEnded: {'returncode': 0}
+[9.173001] (msgfolder) JobProgress: {'identifier': 'msgfolder', 'progress': 'build'}
+[9.175293] (msgfolder) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/test_ws/build/msgfolder', '--', '-j4', '-l4'], 'cwd': '/home/pi/test_ws/build/msgfolder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.106 55130 22'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/test_ws/install/msgfolder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/test_ws/install/lomas_ros_pkg/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '88'), ('AMENT_PREFIX_PATH', '/home/pi/test_ws/install/msgfolder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('PWD', '/home/pi/test_ws/build/msgfolder'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 55130 192.168.0.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/test_ws/install/msgfolder:/opt/ros/humble')]), 'shell': False}
+[9.187333] (-) TimerEvent: {}
+[9.288152] (-) TimerEvent: {}
+[9.346124] (msgfolder) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.388254] (msgfolder) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.389265] (-) TimerEvent: {}
+[9.421640] (msgfolder) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_msgfolder\n'}
+[9.489475] (-) TimerEvent: {}
+[9.590276] (-) TimerEvent: {}
+[9.691019] (-) TimerEvent: {}
+[9.791895] (-) TimerEvent: {}
+[9.893958] (-) TimerEvent: {}
+[9.996072] (-) TimerEvent: {}
+[10.097943] (-) TimerEvent: {}
+[10.199482] (-) TimerEvent: {}
+[10.300936] (-) TimerEvent: {}
+[10.402658] (-) TimerEvent: {}
+[10.504205] (-) TimerEvent: {}
+[10.605682] (-) TimerEvent: {}
+[10.707335] (-) TimerEvent: {}
+[10.808859] (-) TimerEvent: {}
+[10.860583] (msgfolder) StdoutLine: {'line': b'running egg_info\n'}
+[10.863182] (msgfolder) StdoutLine: {'line': b'creating msgfolder.egg-info\n'}
+[10.864228] (msgfolder) StdoutLine: {'line': b'writing msgfolder.egg-info/PKG-INFO\n'}
+[10.865121] (msgfolder) StdoutLine: {'line': b'writing dependency_links to msgfolder.egg-info/dependency_links.txt\n'}
+[10.866207] (msgfolder) StdoutLine: {'line': b'writing top-level names to msgfolder.egg-info/top_level.txt\n'}
+[10.867428] (msgfolder) StdoutLine: {'line': b"writing manifest file 'msgfolder.egg-info/SOURCES.txt'\n"}
+[10.877219] (msgfolder) StdoutLine: {'line': b"reading manifest file 'msgfolder.egg-info/SOURCES.txt'\n"}
+[10.879659] (msgfolder) StdoutLine: {'line': b"writing manifest file 'msgfolder.egg-info/SOURCES.txt'\n"}
+[10.909122] (-) TimerEvent: {}
+[11.011615] (-) TimerEvent: {}
+[11.025840] (msgfolder) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_msgfolder_egg\n'}
+[11.112012] (-) TimerEvent: {}
+[11.214318] (-) TimerEvent: {}
+[11.315411] (-) TimerEvent: {}
+[11.416329] (-) TimerEvent: {}
+[11.448767] (msgfolder) StdoutLine: {'line': b'[  3%] Built target msgfolder__cpp\n'}
+[11.516630] (-) TimerEvent: {}
+[11.521065] (msgfolder) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.528134] (msgfolder) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.534503] (msgfolder) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.594719] (msgfolder) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_c.dir/rosidl_generator_c/msgfolder/msg/detail/machine_command__functions.c.o\x1b[0m\n'}
+[11.616865] (-) TimerEvent: {}
+[11.719337] (-) TimerEvent: {}
+[11.820739] (-) TimerEvent: {}
+[11.897506] (msgfolder) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_c.dir/rosidl_generator_c/msgfolder/msg/detail/machine_status__functions.c.o\x1b[0m\n'}
+[11.921027] (-) TimerEvent: {}
+[12.022608] (-) TimerEvent: {}
+[12.124172] (-) TimerEvent: {}
+[12.177381] (msgfolder) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_c.dir/rosidl_generator_c/msgfolder/msg/detail/watering_command__functions.c.o\x1b[0m\n'}
+[12.224379] (-) TimerEvent: {}
+[12.325249] (-) TimerEvent: {}
+[12.426109] (-) TimerEvent: {}
+[12.442268] (msgfolder) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_c.dir/rosidl_generator_c/msgfolder/msg/detail/watering_status__functions.c.o\x1b[0m\n'}
+[12.526347] (-) TimerEvent: {}
+[12.627552] (-) TimerEvent: {}
+[12.702256] (msgfolder) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmsgfolder__rosidl_generator_c.so\x1b[0m\n'}
+[12.727797] (-) TimerEvent: {}
+[12.894862] (-) TimerEvent: {}
+[12.952359] (msgfolder) StdoutLine: {'line': b'[ 18%] Built target msgfolder__rosidl_generator_c\n'}
+[12.995103] (-) TimerEvent: {}
+[13.021929] (msgfolder) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.095320] (-) TimerEvent: {}
+[13.196714] (-) TimerEvent: {}
+[13.280892] (msgfolder) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgfolder/msg/machine_command__type_support.cpp.o\x1b[0m\n'}
+[13.297064] (-) TimerEvent: {}
+[13.399673] (-) TimerEvent: {}
+[13.501312] (-) TimerEvent: {}
+[13.591426] (msgfolder) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgfolder/msg/detail/machine_command__type_support.cpp.o\x1b[0m\n'}
+[13.601530] (-) TimerEvent: {}
+[13.702978] (-) TimerEvent: {}
+[13.726255] (msgfolder) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgfolder/msg/detail/dds_fastrtps/machine_command__type_support.cpp.o\x1b[0m\n'}
+[13.803216] (-) TimerEvent: {}
+[13.904552] (-) TimerEvent: {}
+[14.005894] (-) TimerEvent: {}
+[14.107480] (-) TimerEvent: {}
+[14.208924] (-) TimerEvent: {}
+[14.310482] (-) TimerEvent: {}
+[14.412148] (-) TimerEvent: {}
+[14.513994] (-) TimerEvent: {}
+[14.615879] (-) TimerEvent: {}
+[14.717628] (-) TimerEvent: {}
+[14.819313] (-) TimerEvent: {}
+[14.921144] (-) TimerEvent: {}
+[14.940288] (msgfolder) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgfolder/msg/machine_status__type_support.cpp.o\x1b[0m\n'}
+[15.021459] (-) TimerEvent: {}
+[15.123763] (-) TimerEvent: {}
+[15.225438] (-) TimerEvent: {}
+[15.327305] (-) TimerEvent: {}
+[15.403305] (msgfolder) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgfolder/msg/detail/machine_command__type_support_c.cpp.o\x1b[0m\n'}
+[15.427703] (-) TimerEvent: {}
+[15.529522] (-) TimerEvent: {}
+[15.631295] (-) TimerEvent: {}
+[15.732829] (-) TimerEvent: {}
+[15.834583] (-) TimerEvent: {}
+[15.930034] (msgfolder) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgfolder/msg/detail/machine_status__type_support.cpp.o\x1b[0m\n'}
+[15.934798] (-) TimerEvent: {}
+[16.036544] (-) TimerEvent: {}
+[16.138365] (-) TimerEvent: {}
+[16.219314] (msgfolder) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgfolder/msg/detail/dds_fastrtps/machine_status__type_support.cpp.o\x1b[0m\n'}
+[16.238698] (-) TimerEvent: {}
+[16.340316] (-) TimerEvent: {}
+[16.441833] (-) TimerEvent: {}
+[16.543578] (-) TimerEvent: {}
+[16.611746] (msgfolder) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgfolder/msg/watering_command__type_support.cpp.o\x1b[0m\n'}
+[16.643832] (-) TimerEvent: {}
+[16.745600] (-) TimerEvent: {}
+[16.847186] (-) TimerEvent: {}
+[16.948682] (-) TimerEvent: {}
+[17.050519] (-) TimerEvent: {}
+[17.152370] (-) TimerEvent: {}
+[17.254607] (-) TimerEvent: {}
+[17.355685] (-) TimerEvent: {}
+[17.457089] (-) TimerEvent: {}
+[17.470166] (msgfolder) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgfolder/msg/detail/machine_status__type_support_c.cpp.o\x1b[0m\n'}
+[17.557332] (-) TimerEvent: {}
+[17.658576] (-) TimerEvent: {}
+[17.760721] (-) TimerEvent: {}
+[17.862647] (-) TimerEvent: {}
+[18.016096] (-) TimerEvent: {}
+[18.118550] (-) TimerEvent: {}
+[18.219670] (-) TimerEvent: {}
+[18.277443] (msgfolder) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgfolder/msg/detail/watering_command__type_support.cpp.o\x1b[0m\n'}
+[18.319906] (-) TimerEvent: {}
+[18.351813] (msgfolder) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgfolder/msg/watering_status__type_support.cpp.o\x1b[0m\n'}
+[18.420182] (-) TimerEvent: {}
+[18.521601] (-) TimerEvent: {}
+[18.623096] (-) TimerEvent: {}
+[18.724577] (-) TimerEvent: {}
+[18.740534] (msgfolder) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgfolder/msg/detail/dds_fastrtps/watering_command__type_support.cpp.o\x1b[0m\n'}
+[18.824923] (-) TimerEvent: {}
+[18.926819] (-) TimerEvent: {}
+[19.028540] (-) TimerEvent: {}
+[19.130342] (-) TimerEvent: {}
+[19.231979] (-) TimerEvent: {}
+[19.333764] (-) TimerEvent: {}
+[19.434889] (-) TimerEvent: {}
+[19.536266] (-) TimerEvent: {}
+[19.637412] (-) TimerEvent: {}
+[19.657525] (msgfolder) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgfolder/msg/detail/watering_command__type_support_c.cpp.o\x1b[0m\n'}
+[19.737711] (-) TimerEvent: {}
+[19.838999] (-) TimerEvent: {}
+[19.940475] (-) TimerEvent: {}
+[19.991130] (msgfolder) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmsgfolder__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[20.040857] (-) TimerEvent: {}
+[20.142122] (-) TimerEvent: {}
+[20.207605] (msgfolder) StdoutLine: {'line': b'[ 45%] Built target msgfolder__rosidl_typesupport_cpp\n'}
+[20.242396] (-) TimerEvent: {}
+[20.256576] (msgfolder) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgfolder/msg/detail/watering_status__type_support_c.cpp.o\x1b[0m\n'}
+[20.342718] (-) TimerEvent: {}
+[20.443754] (-) TimerEvent: {}
+[20.544735] (-) TimerEvent: {}
+[20.582247] (msgfolder) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgfolder/msg/detail/watering_status__type_support.cpp.o\x1b[0m\n'}
+[20.644991] (-) TimerEvent: {}
+[20.745986] (-) TimerEvent: {}
+[20.847128] (-) TimerEvent: {}
+[20.948147] (-) TimerEvent: {}
+[21.049316] (-) TimerEvent: {}
+[21.150432] (-) TimerEvent: {}
+[21.218391] (msgfolder) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgfolder/msg/detail/dds_fastrtps/watering_status__type_support.cpp.o\x1b[0m\n'}
+[21.250723] (-) TimerEvent: {}
+[21.351995] (-) TimerEvent: {}
+[21.453101] (-) TimerEvent: {}
+[21.554067] (-) TimerEvent: {}
+[21.655049] (-) TimerEvent: {}
+[21.756268] (-) TimerEvent: {}
+[21.763636] (msgfolder) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.856513] (-) TimerEvent: {}
+[21.958462] (-) TimerEvent: {}
+[22.060297] (-) TimerEvent: {}
+[22.162162] (-) TimerEvent: {}
+[22.264176] (-) TimerEvent: {}
+[22.365992] (-) TimerEvent: {}
+[22.415467] (msgfolder) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmsgfolder__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.466250] (-) TimerEvent: {}
+[22.567274] (-) TimerEvent: {}
+[22.668476] (-) TimerEvent: {}
+[22.769420] (-) TimerEvent: {}
+[22.857367] (msgfolder) StdoutLine: {'line': b'[ 54%] Built target msgfolder__rosidl_typesupport_fastrtps_c\n'}
+[22.869674] (-) TimerEvent: {}
+[22.910121] (msgfolder) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.969949] (-) TimerEvent: {}
+[23.071728] (-) TimerEvent: {}
+[23.117031] (msgfolder) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmsgfolder__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.171919] (-) TimerEvent: {}
+[23.273529] (-) TimerEvent: {}
+[23.375744] (-) TimerEvent: {}
+[23.476666] (-) TimerEvent: {}
+[23.479720] (msgfolder) StdoutLine: {'line': b'[ 58%] Built target msgfolder__rosidl_typesupport_introspection_cpp\n'}
+[23.576876] (-) TimerEvent: {}
+[23.677639] (-) TimerEvent: {}
+[23.778551] (-) TimerEvent: {}
+[23.879327] (-) TimerEvent: {}
+[23.926112] (msgfolder) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgfolder/msg/detail/machine_command__type_support.c.o\x1b[0m\n'}
+[23.927694] (msgfolder) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgfolder/msg/detail/machine_status__type_support.c.o\x1b[0m\n'}
+[23.976162] (msgfolder) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmsgfolder__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[23.979523] (-) TimerEvent: {}
+[24.080774] (-) TimerEvent: {}
+[24.127854] (msgfolder) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgfolder/msg/detail/watering_command__type_support.c.o\x1b[0m\n'}
+[24.143617] (msgfolder) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgfolder/msg/detail/watering_status__type_support.c.o\x1b[0m\n'}
+[24.181086] (-) TimerEvent: {}
+[24.283205] (-) TimerEvent: {}
+[24.362178] (msgfolder) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libmsgfolder__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[24.372775] (msgfolder) StdoutLine: {'line': b'[ 69%] Built target msgfolder__rosidl_typesupport_fastrtps_cpp\n'}
+[24.383765] (-) TimerEvent: {}
+[24.485221] (-) TimerEvent: {}
+[24.527399] (msgfolder) StdoutLine: {'line': b'[ 69%] Built target msgfolder__rosidl_typesupport_introspection_c\n'}
+[24.565141] (msgfolder) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgfolder/msg/machine_command__type_support.cpp.o\x1b[0m\n'}
+[24.566346] (msgfolder) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgfolder/msg/machine_status__type_support.cpp.o\x1b[0m\n'}
+[24.569093] (msgfolder) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgfolder/msg/watering_command__type_support.cpp.o\x1b[0m\n'}
+[24.574649] (msgfolder) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/msgfolder__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgfolder/msg/watering_status__type_support.cpp.o\x1b[0m\n'}
+[24.585447] (-) TimerEvent: {}
+[24.686912] (-) TimerEvent: {}
+[24.731725] (msgfolder) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmsgfolder__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.787134] (-) TimerEvent: {}
+[24.887968] (-) TimerEvent: {}
+[24.891116] (msgfolder) StdoutLine: {'line': b'[ 78%] Built target msgfolder__rosidl_typesupport_c\n'}
+[24.974336] (msgfolder) StdoutLine: {'line': b'[ 78%] Built target msgfolder\n'}
+[24.988163] (-) TimerEvent: {}
+[25.058756] (msgfolder) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.088305] (-) TimerEvent: {}
+[25.188949] (-) TimerEvent: {}
+[25.289559] (-) TimerEvent: {}
+[25.390370] (-) TimerEvent: {}
+[25.491325] (-) TimerEvent: {}
+[25.591985] (-) TimerEvent: {}
+[25.692601] (-) TimerEvent: {}
+[25.793208] (-) TimerEvent: {}
+[25.893850] (-) TimerEvent: {}
+[25.994437] (-) TimerEvent: {}
+[26.095057] (-) TimerEvent: {}
+[26.195675] (-) TimerEvent: {}
+[26.296273] (-) TimerEvent: {}
+[26.396895] (-) TimerEvent: {}
+[26.497465] (-) TimerEvent: {}
+[26.598053] (-) TimerEvent: {}
+[26.698672] (-) TimerEvent: {}
+[26.799253] (-) TimerEvent: {}
+[26.899896] (-) TimerEvent: {}
+[27.000470] (-) TimerEvent: {}
+[27.101001] (-) TimerEvent: {}
+[27.201724] (-) TimerEvent: {}
+[27.302790] (-) TimerEvent: {}
+[27.398888] (msgfolder) StdoutLine: {'line': b'[ 80%] Built target msgfolder__py\n'}
+[27.402966] (-) TimerEvent: {}
+[27.490369] (msgfolder) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_py.dir/rosidl_generator_py/msgfolder/msg/_machine_command_s.c.o\x1b[0m\n'}
+[27.491938] (msgfolder) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_py.dir/rosidl_generator_py/msgfolder/msg/_machine_status_s.c.o\x1b[0m\n'}
+[27.494898] (msgfolder) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_py.dir/rosidl_generator_py/msgfolder/msg/_watering_command_s.c.o\x1b[0m\n'}
+[27.500265] (msgfolder) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_generator_py.dir/rosidl_generator_py/msgfolder/msg/_watering_status_s.c.o\x1b[0m\n'}
+[27.503185] (-) TimerEvent: {}
+[27.604047] (-) TimerEvent: {}
+[27.704933] (-) TimerEvent: {}
+[27.805919] (-) TimerEvent: {}
+[27.907169] (-) TimerEvent: {}
+[28.013061] (-) TimerEvent: {}
+[28.053136] (msgfolder) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgfolder/libmsgfolder__rosidl_generator_py.so\x1b[0m\n'}
+[28.113264] (-) TimerEvent: {}
+[28.214106] (-) TimerEvent: {}
+[28.238013] (msgfolder) StdoutLine: {'line': b'[ 89%] Built target msgfolder__rosidl_generator_py\n'}
+[28.314378] (-) TimerEvent: {}
+[28.326136] (msgfolder) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgfolder/_msgfolder_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.327783] (msgfolder) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgfolder/_msgfolder_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.333116] (msgfolder) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/msgfolder__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgfolder/_msgfolder_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.414592] (-) TimerEvent: {}
+[28.515448] (-) TimerEvent: {}
+[28.616214] (-) TimerEvent: {}
+[28.716982] (-) TimerEvent: {}
+[28.817826] (-) TimerEvent: {}
+[28.903467] (msgfolder) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgfolder/msgfolder_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.904599] (msgfolder) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgfolder/msgfolder_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.905640] (msgfolder) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgfolder/msgfolder_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.918047] (-) TimerEvent: {}
+[29.020310] (-) TimerEvent: {}
+[29.122446] (-) TimerEvent: {}
+[29.162541] (msgfolder) StdoutLine: {'line': b'[100%] Built target msgfolder__rosidl_typesupport_introspection_c__pyext\n'}
+[29.164857] (msgfolder) StdoutLine: {'line': b'[100%] Built target msgfolder__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.166628] (msgfolder) StdoutLine: {'line': b'[100%] Built target msgfolder__rosidl_typesupport_c__pyext\n'}
+[29.210075] (msgfolder) CommandEnded: {'returncode': 0}
+[29.222600] (-) TimerEvent: {}
+[29.323330] (-) TimerEvent: {}
+[29.424101] (-) TimerEvent: {}
+[29.524847] (-) TimerEvent: {}
+[29.625575] (-) TimerEvent: {}
+[29.726602] (-) TimerEvent: {}
+[29.827316] (-) TimerEvent: {}
+[29.928044] (-) TimerEvent: {}
+[30.001386] (msgfolder) JobProgress: {'identifier': 'msgfolder', 'progress': 'install'}
+[30.028231] (-) TimerEvent: {}
+[30.037599] (msgfolder) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/test_ws/build/msgfolder'], 'cwd': '/home/pi/test_ws/build/msgfolder', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.106 55130 22'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/test_ws/install/msgfolder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/test_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/test_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/test_ws/install/lomas_ros_pkg/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '88'), ('AMENT_PREFIX_PATH', '/home/pi/test_ws/install/msgfolder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('PWD', '/home/pi/test_ws/build/msgfolder'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.106 55130 192.168.0.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages:/home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/test_ws/install/msgfolder:/opt/ros/humble')]), 'shell': False}
+[30.065921] (msgfolder) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.066809] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/ament_index/resource_index/rosidl_interfaces/msgfolder\n'}
+[30.068380] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder\n'}
+[30.069024] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg\n'}
+[30.069614] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/watering_command.h\n'}
+[30.070544] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail\n'}
+[30.071267] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__type_support.h\n'}
+[30.072377] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__functions.h\n'}
+[30.073376] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__functions.h\n'}
+[30.074357] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__type_support.h\n'}
+[30.075329] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__type_support.h\n'}
+[30.076340] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__type_support.h\n'}
+[30.077303] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__functions.c\n'}
+[30.078268] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__struct.h\n'}
+[30.079193] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__struct.h\n'}
+[30.080226] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__functions.h\n'}
+[30.081212] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__functions.c\n'}
+[30.082185] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__struct.h\n'}
+[30.083112] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__functions.h\n'}
+[30.084199] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__functions.c\n'}
+[30.085194] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__functions.c\n'}
+[30.086202] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__struct.h\n'}
+[30.087125] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/watering_status.h\n'}
+[30.088083] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.089021] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/machine_command.h\n'}
+[30.089877] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/machine_status.h\n'}
+[30.091470] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/library_path.sh\n'}
+[30.092481] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/library_path.dsv\n'}
+[30.093754] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_generator_c.so\n'}
+[30.096239] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_generator_c.so" to ""\n'}
+[30.096728] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder\n'}
+[30.097098] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg\n'}
+[30.097434] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.098228] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail\n'}
+[30.098734] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__rosidl_typesupport_fastrtps_c.h\n'}
+[30.099913] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__rosidl_typesupport_fastrtps_c.h\n'}
+[30.100977] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__rosidl_typesupport_fastrtps_c.h\n'}
+[30.102021] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__rosidl_typesupport_fastrtps_c.h\n'}
+[30.103289] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_fastrtps_c.so\n'}
+[30.105858] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.106333] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder\n'}
+[30.106753] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg\n'}
+[30.107024] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail\n'}
+[30.107413] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__builder.hpp\n'}
+[30.108229] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__traits.hpp\n'}
+[30.109269] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__struct.hpp\n'}
+[30.110206] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__builder.hpp\n'}
+[30.111159] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__struct.hpp\n'}
+[30.112217] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__traits.hpp\n'}
+[30.113162] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__struct.hpp\n'}
+[30.114173] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__builder.hpp\n'}
+[30.115116] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__struct.hpp\n'}
+[30.116079] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__builder.hpp\n'}
+[30.117026] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__traits.hpp\n'}
+[30.117998] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__traits.hpp\n'}
+[30.118936] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/watering_status.hpp\n'}
+[30.119844] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/watering_command.hpp\n'}
+[30.120724] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/machine_command.hpp\n'}
+[30.121612] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/machine_status.hpp\n'}
+[30.122570] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder\n'}
+[30.123031] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg\n'}
+[30.123438] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail\n'}
+[30.123820] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/dds_fastrtps\n'}
+[30.124343] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.125548] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.126604] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.127836] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.128311] (-) TimerEvent: {}
+[30.129005] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.130366] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.132899] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.133464] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder\n'}
+[30.133871] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg\n'}
+[30.134272] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail\n'}
+[30.134563] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__type_support.c\n'}
+[30.135491] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__rosidl_typesupport_introspection_c.h\n'}
+[30.136786] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__rosidl_typesupport_introspection_c.h\n'}
+[30.137834] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__rosidl_typesupport_introspection_c.h\n'}
+[30.138919] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__type_support.c\n'}
+[30.139970] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__type_support.c\n'}
+[30.140985] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__rosidl_typesupport_introspection_c.h\n'}
+[30.142043] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__type_support.c\n'}
+[30.143148] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.144484] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_introspection_c.so\n'}
+[30.146717] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.147173] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_c.so\n'}
+[30.149222] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_c.so" to ""\n'}
+[30.149681] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder\n'}
+[30.150040] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg\n'}
+[30.150383] (msgfolder) StdoutLine: {'line': b'-- Up-to-date: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail\n'}
+[30.150713] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.151780] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_status__type_support.cpp\n'}
+[30.152866] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__type_support.cpp\n'}
+[30.153965] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__type_support.cpp\n'}
+[30.154969] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.156142] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.157219] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/machine_command__type_support.cpp\n'}
+[30.158290] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/include/msgfolder/msgfolder/msg/detail/watering_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.159927] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_introspection_cpp.so\n'}
+[30.162393] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.162852] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_cpp.so\n'}
+[30.165056] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_typesupport_cpp.so" to ""\n'}
+[30.165529] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/pythonpath.sh\n'}
+[30.166404] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/pythonpath.dsv\n'}
+[30.167386] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder-0.0.1-py3.10.egg-info\n'}
+[30.168343] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[30.169403] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[30.170346] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[30.171304] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[30.172387] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder\n'}
+[30.173003] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg\n'}
+[30.173649] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_watering_status.py\n'}
+[30.174723] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_watering_command.py\n'}
+[30.175726] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_machine_command_s.c\n'}
+[30.176699] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_watering_command_s.c\n'}
+[30.177631] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_machine_status.py\n'}
+[30.178655] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_machine_status_s.c\n'}
+[30.179668] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/__init__.py\n'}
+[30.180554] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_machine_command.py\n'}
+[30.181497] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_watering_status_s.c\n'}
+[30.182505] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/_msgfolder_s.ep.rosidl_typesupport_c.c\n'}
+[30.183835] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.185043] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/__init__.py\n'}
+[30.185925] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/_msgfolder_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[30.187107] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/libmsgfolder__rosidl_generator_py.so\n'}
+[30.188409] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/_msgfolder_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[30.189592] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.190898] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.228489] (-) TimerEvent: {}
+[30.329208] (-) TimerEvent: {}
+[30.356541] (msgfolder) StdoutLine: {'line': b"Listing '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder'...\n"}
+[30.357756] (msgfolder) StdoutLine: {'line': b"Compiling '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/__init__.py'...\n"}
+[30.358665] (msgfolder) StdoutLine: {'line': b"Listing '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg'...\n"}
+[30.359757] (msgfolder) StdoutLine: {'line': b"Compiling '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/__init__.py'...\n"}
+[30.360607] (msgfolder) StdoutLine: {'line': b"Compiling '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_machine_command.py'...\n"}
+[30.361557] (msgfolder) StdoutLine: {'line': b"Compiling '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_machine_status.py'...\n"}
+[30.362406] (msgfolder) StdoutLine: {'line': b"Compiling '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_watering_command.py'...\n"}
+[30.363116] (msgfolder) StdoutLine: {'line': b"Compiling '/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msg/_watering_status.py'...\n"}
+[30.382095] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.384652] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.386001] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.388632] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.389958] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.392487] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/local/lib/python3.10/dist-packages/msgfolder/msgfolder_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.393068] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_generator_py.so\n'}
+[30.395333] (msgfolder) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/test_ws/install/msgfolder/lib/libmsgfolder__rosidl_generator_py.so" to ""\n'}
+[30.395970] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/MachineCommand.idl\n'}
+[30.397089] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/MachineStatus.idl\n'}
+[30.398113] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/WateringCommand.idl\n'}
+[30.399112] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/WateringStatus.idl\n'}
+[30.400172] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/MachineCommand.msg\n'}
+[30.401096] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/MachineStatus.msg\n'}
+[30.402043] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/WateringCommand.msg\n'}
+[30.403002] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/msg/WateringStatus.msg\n'}
+[30.404346] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/ament_index/resource_index/package_run_dependencies/msgfolder\n'}
+[30.405749] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/ament_index/resource_index/parent_prefix_path/msgfolder\n'}
+[30.406879] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/ament_prefix_path.sh\n'}
+[30.408077] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/ament_prefix_path.dsv\n'}
+[30.409132] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/path.sh\n'}
+[30.410093] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/environment/path.dsv\n'}
+[30.411052] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/local_setup.bash\n'}
+[30.412088] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/local_setup.sh\n'}
+[30.413128] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/local_setup.zsh\n'}
+[30.414082] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/local_setup.dsv\n'}
+[30.415043] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/package.dsv\n'}
+[30.416359] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/ament_index/resource_index/packages/msgfolder\n'}
+[30.417730] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_generator_cExport.cmake\n'}
+[30.418933] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.420252] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.421534] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.422828] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_generator_cppExport.cmake\n'}
+[30.424133] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.425389] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.426709] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.427992] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.429295] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_cExport.cmake\n'}
+[30.429663] (-) TimerEvent: {}
+[30.430542] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.432289] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.433448] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.434773] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_cppExport.cmake\n'}
+[30.435999] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolder__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.437299] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_generator_pyExport.cmake\n'}
+[30.438553] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/export_msgfolder__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.439824] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/rosidl_cmake-extras.cmake\n'}
+[30.440889] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.442163] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.443284] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.444511] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.445624] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.446745] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.447924] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolderConfig.cmake\n'}
+[30.448805] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/cmake/msgfolderConfig-version.cmake\n'}
+[30.449800] (msgfolder) StdoutLine: {'line': b'-- Installing: /home/pi/test_ws/install/msgfolder/share/msgfolder/package.xml\n'}
+[30.456601] (msgfolder) CommandEnded: {'returncode': 0}
+[30.529861] (-) TimerEvent: {}
+[30.630654] (-) TimerEvent: {}
+[30.731386] (-) TimerEvent: {}
+[30.832126] (-) TimerEvent: {}
+[30.932824] (-) TimerEvent: {}
+[31.033848] (-) TimerEvent: {}
+[31.134621] (-) TimerEvent: {}
+[31.235389] (-) TimerEvent: {}
+[31.323288] (msgfolder) JobEnded: {'identifier': 'msgfolder', 'rc': 0}
+[31.326037] (-) EventReactorShutdown: {}

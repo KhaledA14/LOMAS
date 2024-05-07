@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info
+writing ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/requires.txt
+writing top-level names to ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/top_level.txt
+writing manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/test_ws/build/lomas_ros_pkg/build
+creating /home/pi/test_ws/build/lomas_ros_pkg/build/lib
+creating /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg
+copying lomas_ros_pkg/watering_node_2.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg
+copying lomas_ros_pkg/__init__.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg
+copying lomas_ros_pkg/machine_node_2.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg
+copying lomas_ros_pkg/seq_generation_node.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg
+copying lomas_ros_pkg/gcodesender_test.py -> /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg
+running install
+running install_lib
+creating /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg
+copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/watering_node_2.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg
+copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/__init__.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg
+copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/machine_node_2.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg
+copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/seq_generation_node.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg
+copying /home/pi/test_ws/build/lomas_ros_pkg/build/lib/lomas_ros_pkg/gcodesender_test.py -> /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg
+byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/watering_node_2.py to watering_node_2.cpython-310.pyc
+byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/machine_node_2.py to machine_node_2.cpython-310.pyc
+byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/seq_generation_node.py to seq_generation_node.cpython-310.pyc
+byte-compiling /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg/gcodesender_test.py to gcodesender_test.cpython-310.pyc
+running install_data
+creating /home/pi/test_ws/install/lomas_ros_pkg/share
+creating /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index
+creating /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index/resource_index
+creating /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index/resource_index/packages
+copying resource/lomas_ros_pkg -> /home/pi/test_ws/install/lomas_ros_pkg/share/ament_index/resource_index/packages
+creating /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg
+copying package.xml -> /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg
+creating /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg/launch
+copying launch/complete.launch.xml -> /home/pi/test_ws/install/lomas_ros_pkg/share/lomas_ros_pkg/launch
+running install_egg_info
+Copying ../../build/lomas_ros_pkg/lomas_ros_pkg.egg-info to /home/pi/test_ws/install/lomas_ros_pkg/lib/python3.10/site-packages/lomas_ros_pkg-0.0.1-py3.10.egg-info
+running install_scripts
+Installing machine_node_2 script to /home/pi/test_ws/install/lomas_ros_pkg/lib/lomas_ros_pkg
+Installing watering_node_2 script to /home/pi/test_ws/install/lomas_ros_pkg/lib/lomas_ros_pkg
+writing list of installed files to '/home/pi/test_ws/build/lomas_ros_pkg/install.log'
