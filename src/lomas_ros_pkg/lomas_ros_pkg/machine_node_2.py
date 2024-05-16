@@ -46,7 +46,7 @@ class MachineNode(Node):
         self.get_logger().info(f" * Path: {self.path}")
         self.get_logger().info(f" * Interval: {self.status.interval}")
 
-        #self.pubMachineStatus.publish(self.status)
+        self.pubMachineStatus.publish(self.status)
 
 
     def removeComment(string):
