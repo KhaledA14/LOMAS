@@ -23,7 +23,6 @@ class MachineNode(Node):
                 ('cultivation_interval', 120)
             ]
         )
-        self.loadParameters()
         self.pubMachineStatus = self.create_publisher(MachineStatus, 'LOMAS_MachineState', 10)
         self.sub_cmd = self.create_subscription(UInt8, 'LOMAS_MachineCmd', self.cmdCallback, 10)
         self.sub_stop = self.create_subscription(Bool, 'LOMAS_MachineStop', self.stopCallback, 10)
