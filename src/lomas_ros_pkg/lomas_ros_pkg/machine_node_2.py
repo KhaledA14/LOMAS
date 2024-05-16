@@ -154,8 +154,6 @@ class MachineNode(Node):
             self.status.machine_moving = False
             self.status.sequense_nr = 0
 
-        self.status_publisher.publish(self.status)
-
     def stopCallback(self, data):
         self.get_logger().info('Stop')
         self.stop = data.data
