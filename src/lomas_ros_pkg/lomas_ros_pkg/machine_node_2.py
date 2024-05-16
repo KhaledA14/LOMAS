@@ -170,7 +170,7 @@ class MachineNode(Node):
         self.pubMachineStatus.publish(self.status)
 
     def cmdCallback(self, data):
-        self.get.logger().info(f'Received command: {data.data}')
+        self.get.logger().info(f'Received command: {data}')
         if data.data == 99:
             self.get.logger().info('Starting to home robot')
             self.status.is_synced = False
