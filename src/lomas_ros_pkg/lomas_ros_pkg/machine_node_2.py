@@ -48,6 +48,7 @@ class MachineNode(Node):
 
         self.pubMachineStatus.publish(self.status)
 
+
     def removeComment(string):
         if (string.find(';') == -1):
             return string
