@@ -13,6 +13,7 @@ from std_msgs.msg import *
 class MachineNode(Node):
     def __init__(self):
         super().__init__('machine_node')
+        self.status = MachineStatus()
         self.declare_parameters(
             namespace='',
             parameters=[
@@ -29,7 +30,6 @@ class MachineNode(Node):
         self.sub_abort = self.create_subscription(Bool, 'LOMAS_MachineAbort', self.abort_callback, 10)
         self.sub_intervall = self.create_subscription(UInt8, 'LOMAS_MachineSetIntervall', self.intervall_callback, 10)
 
-        self.status = MachineStatus()
         self.status.ErrorNr = 99
         self.stop = False
         self.abort = False
