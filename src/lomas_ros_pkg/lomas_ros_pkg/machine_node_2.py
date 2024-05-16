@@ -28,7 +28,7 @@ class MachineNode(Node):
         self.sub_cmd = self.create_subscription(UInt8, 'LOMAS_MachineCmd', self.cmdCallback, 10)
         self.sub_stop = self.create_subscription(Bool, 'LOMAS_MachineStop', self.stopCallback, 10)
         self.sub_abort = self.create_subscription(Bool, 'LOMAS_MachineAbort', self.abortCallback, 10)
-        self.sub_intervall = self.create_subscription(UInt8, 'LOMAS_MachineSetIntervall', self.intervall_Callback, 10)
+        self.sub_intervall = self.create_subscription(UInt8, 'LOMAS_MachineSetIntervall', self.intervallCallback, 10)
 
         self.status.error_nr = 99
         self.stop = False
