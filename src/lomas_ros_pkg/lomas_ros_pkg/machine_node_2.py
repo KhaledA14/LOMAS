@@ -145,7 +145,7 @@ class MachineNode(Node):
         self.status.sequense_nr = 99
         self.pubMachineStatus.publish(self.status)
 
-        ok = self.send_serial_cmd((cmd + '\n'))
+        ok = self.sendSerialCmd((cmd + '\n'))
 
         if ok:
             self.status.error_nr = 0
