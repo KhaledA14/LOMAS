@@ -170,52 +170,52 @@ class MachineNode(Node):
         self.pubMachineStatus.publish(self.status)
 
     def cmdCallback(self, data):
-        self.get.logger().info(f'Received command: {data}')
+        self.get_logger().info(f'Received command: {data.data}')
         if data.data == 99:
-            self.get.logger().info('Starting to home robot')
+            self.get_logger().info('Starting to home robot')
             self.status.is_synced = False
             self.sendGCodeCmd('G28 X Y Z')
             self.status.is_synced = True
         elif data.data == 1:
-            self.get.logger().info('Send cultivation.g file')
+            self.get_logger().info('Send cultivation.g file')
             self.status.sequense_nr = 1
             self.sendGCodeFile(path + 'cultivation.g', 1)
         elif data.data == 2:
-            self.get.logger().info('Send seed.g file')
+            self.get_logger().info('Send seed.g file')
             self.status.sequense_nr = 2
             self.sendGCodeFile(path + 'seed.g', 2)
         elif data.data == 90:
-            self.get.logger().info('Man. pos X')
+            self.get_logger().info('Man. pos X')
             self.sendGCodeCmd('G91\n'+'G0 X10 F1000\n')
-            self.get.logger().info('G0 X10 F1000\n')
+            self.get_logger().info('G0 X10 F1000\n')
         elif data.data == 91:
-            self.get.logger().info('Man. neg X')
+            self.get_logger().info('Man. neg X')
             self.sendGCodeCmd('G91\n'+'G0 X-10 F1000\n')
-            self.get.logger().info('G0 X-10 F1000\n')
+            self.get_logger().info('G0 X-10 F1000\n')
         elif data.data == 92:
-            self.get.logger().info('Man. pos Y')
+            self.get_logger().info('Man. pos Y')
             self.sendGCodeCmd('G91\n'+'G0 Y10 F1000\n')
-            self.get.logger().info('G0 Y10 F1000\n')
+            self.get_logger().info('G0 Y10 F1000\n')
         elif data.data == 93:
-            self.get.logger().info('Man. neg Y')
+            self.get_logger().info('Man. neg Y')
             self.sendGCodeCmd('G91\n'+'G0 Y-10 F1000\n')
-            self.get.logger().info('G0 Y-10 F1000\n')
+            self.get_logger().info('G0 Y-10 F1000\n')
         elif data.data == 94:
-            self.get.logger().info('Man. pos X pos Y')
+            self.get_logger().info('Man. pos X pos Y')
             self.sendGCodeCmd('G91\n'+'G0 X10 Y10 F1000\n')
-            self.get.logger().info('G0 X10 Y10 F1000\n')
+            self.get_logger().info('G0 X10 Y10 F1000\n')
         elif data.data == 95:
-            self.get.logger().info('Man. neg X pos Y')
+            self.get_logger().info('Man. neg X pos Y')
             self.sendGCodeCmd('G91\n'+'G0 X-10 Y10 F1000\n')
-            self.get.logger().info('G0 X-10 Y10 F1000\n')
+            self.get_logger().info('G0 X-10 Y10 F1000\n')
         elif data.data == 96:
-            self.get.logger().info('Man. pos X neg Y')
+            self.get_logger().info('Man. pos X neg Y')
             self.sendGCodeCmd('G91\n'+'G0 X10 Y-10 F1000\n')
-            self.get.logger().info('G0 X10 Y-10 F1000\n')
+            self.get_logger().info('G0 X10 Y-10 F1000\n')
         elif data.data == 97:
-            self.get.logger().info('Man. neg X neg Y')
+            self.get_logger().info('Man. neg X neg Y')
             self.sendGCodeCmd('G91\n'+'G0 X-10 Y-10 F1000\n')
-            self.get.logger().info('G0 X-10 Y-10 F1000\n')
+            self.get_logger().info('G0 X-10 Y-10 F1000\n')
 
         self.pubMachineStatus.publish(self.staus)
 
