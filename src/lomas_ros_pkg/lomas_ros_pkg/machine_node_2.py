@@ -216,7 +216,7 @@ class MachineNode(Node):
             self.sendGCodeCmd('G91\n'+'G0 X-10 Y-10 F1000\n')
             self.get_logger().info('G0 X-10 Y-10 F1000\n')
 
-        self.pubMachineStatus.publish(self.staus)
+        self.pubMachineStatus.publish(self.status)
 
 
 
