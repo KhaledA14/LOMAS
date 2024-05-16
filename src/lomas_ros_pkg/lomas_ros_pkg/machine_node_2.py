@@ -38,7 +38,7 @@ class MachineNode(Node):
         self.IsInSimMode = self.get_parameter('sim_port').value
         self.port = self.get_parameter('port').value
         self.path = self.get_parameter('path').value
-        self.status.Interval = self.get_parameter('cultivation_interval').value
+        self.status.interval = self.get_parameter('cultivation_interval').value
 
         self.get_logger().info('Machine param values:')
         self.get_logger().info(f" * IsInSimMode: {self.IsInSimMode}")
