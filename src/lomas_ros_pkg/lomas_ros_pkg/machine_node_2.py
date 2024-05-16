@@ -30,7 +30,7 @@ class MachineNode(Node):
         self.sub_abort = self.create_subscription(Bool, 'LOMAS_MachineAbort', self.abort_callback, 10)
         self.sub_intervall = self.create_subscription(UInt8, 'LOMAS_MachineSetIntervall', self.intervall_callback, 10)
 
-        self.status.ErrorNr = 99
+        self.status.error_nr = 99
         self.stop = False
         self.abort = False
 
@@ -44,7 +44,7 @@ class MachineNode(Node):
         self.get_logger().info(f" * IsInSimMode: {self.IsInSimMode}")
         self.get_logger().info(f" * Port: {self.port}")
         self.get_logger().info(f" * Path: {self.path}")
-        self.get_logger().info(f" * Interval: {self.status.Interval}")
+        self.get_logger().info(f" * Interval: {self.status.interval}")
 
         self.pubMachineStatus.publish(self.status)
 
@@ -59,17 +59,17 @@ class MachineNode(Node):
         self.get_logger().info('Opening Serial Port')
         if self.IsInSimMode:
             self.get_logger().info('Warning : Serial port will be simulated')
-            self.status.ErrorNr = 0
+            self.status.error_nr = 0
         else:
             try:
                 self.s = serial.Serial(self.port, 115200)
                 self.s.write(b"\r\n\r\n")  # Hit enter a few times to wake the robot
                 time.sleep(2)  # Wait for machine to initialize
                 self.s.flushInput()  # Flush startup text in serial input
-                self.status.ErrorNr = 0
+                self.status.error_nr = 0
                 self.get_logger().info('Serial port connected to machine')
             except serial.SerialException:
-                self.status.ErrorNr = 98
+                self.status.error_nr = 98
                 self.get_logger().error('Error when opening Serial Port')
 
         self.pubMachineStatus.publish(self.status)
@@ -89,8 +89,8 @@ class MachineNode(Node):
             return False
 
     def sendGCodeFile(self, file, seq):
-        self.status.SequensStarted = True
-        self.status.MachineMoving = True
+        self.status.sequense_started = True
+        self.status.machine_moving = True
         self.stop = False
         self.abort = False
         self.pubMachineStatus.publish(self.status)
@@ -106,12 +106,12 @@ class MachineNode(Node):
 
                     if self.stop:
                         self.get_logger().info('Stopped')
-                        self.status.SequenseNr = 90
+                        self.status.sequense_nr = 90
                         self.status.MachineMoving = False
                         self.pubMachineStatus.publish(self.status)
                         while self.stop:
                             if self.abort:
-                                self.status.SequenseNr = 91
+                                self.status.sequense_nr = 91
                                 self.get_logger().info('Aborting while')
                                 self.pubMachineStatus.publish(self.status)
                                 break
@@ -119,12 +119,12 @@ class MachineNode(Node):
                             time.sleep(0.1)
 
                         self.get_logger().info('Restarted')
-                        self.status.MachineMoving = True
-                        self.status.SequenseNr = seq
+                        self.status.machine_moving = True
+                        self.status.sequense_nr = seq
                         self.pubMachineStatus.publish(self.status)
 
                     if self.abort:
-                        self.status.SequenseNr = 91
+                        self.status.sequense_nr = 91
                         self.pubMachineStatus.publish(self.status)
                         self.get_logger().info('Aborting for')
                         break
@@ -133,27 +133,27 @@ class MachineNode(Node):
             self.get_logger().error(f"Error: File {file} not found")
 
         # f.close()????
-        self.status.ErrorNr = 0
-        self.status.SequensStarted = False
-        self.status.MachineMoving = False
-        self.status.SequenseNr = 0
+        self.status.error_nr = 0
+        self.status.sequense_started = False
+        self.status.machine_moving = False
+        self.status.sequense_nr = 0
         self.abort = False
 
     def sendGCodeCmd(self, cmd):
-        self.status.SequensStarted = True
-        self.status.MachineMoving = True
-        self.status.SequenseNr = 99
+        self.status.sequense_started = True
+        self.status.machine_moving = True
+        self.status.sequense_nr = 99
         self.pubMachineStatus.publish(self.status)
 
         ok = self.send_serial_cmd((cmd + '\n'))
 
         if ok:
-            self.status.ErrorNr = 0
-            self.status.SequensStarted = False
-            self.status.MachineMoving = False
-            self.status.SequenseNr = 0
+            self.status.error_nr = 0
+            self.status.sequense_started = False
+            self.status.machine_moving = False
+            self.status.sequense_nr = 0
 
-        #self.status_publisher.publish(self.status)
+        self.status_publisher.publish(self.status)
 
     def stopCallback(self, data):
         self.get_logger().info('Stop')
@@ -165,7 +165,7 @@ class MachineNode(Node):
 
     def intervallCallback(self, data):
         self.get_logger().info(f'Set interval: {data.data}')
-        self.status.Interval = data.data
+        self.status.interval = data.data
         self.setParameters([rclpy.parameter.Parameter('cultivation_interval', rclpy.Parameter.Type.INTEGER, data.data)])
         self.pubMachineStatus.publish(self.status)
 
@@ -173,16 +173,16 @@ class MachineNode(Node):
         self.get.logger().info(f'Received command: {data.data}')
         if data.data == 99:
             self.get.logger().info('Starting to home robot')
-            self.status.IsSynced = False
+            self.status.is_synced = False
             self.sendGCodeCmd('G28 X Y Z')
-            self.status.IsSynced = True
+            self.status.is_synced = True
         elif data.data == 1:
             self.get.logger().info('Send cultivation.g file')
-            self.status.SequenseNr = 1
+            self.status.sequense_nr = 1
             self.sendGCodeFile(path + 'cultivation.g', 1)
         elif data.data == 2:
             self.get.logger().info('Send seed.g file')
-            self.status.SequenseNr = 2
+            self.status.sequense_nr = 2
             self.sendGCodeFile(path + 'seed.g', 2)
         elif data.data == 90:
             self.get.logger().info('Man. pos X')
