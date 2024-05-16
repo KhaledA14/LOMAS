@@ -75,7 +75,8 @@ class MachineNode(Node):
         self.pubMachineStatus.publish(self.status)
 
     def sendSerialCmd(self, cmd):
-        if self.IsInSimMode:
+        IsInSimMode = self.get_parameter('sim_port').value
+        if IsInSimMode:
             grbl_out = 'oMGok\n'
         else:
             self.ser.write(cmd)  # Send g-code block
