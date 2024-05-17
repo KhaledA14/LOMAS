@@ -1,0 +1,5 @@
+-
+  ros1_package_name: 'LOMAS_ROS_pkg'
+  ros1_message_name: 'msg'
+  ros2_package_name: 'lomas_ros_pkg'
+  ros2_message_name: 'msgfolder'

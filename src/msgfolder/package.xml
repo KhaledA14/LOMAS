@@ -18,6 +18,7 @@
 
     <export>
         <build_type>ament_cmake</build_type>
+        <ros1_bridge mapping_rules="my_bridge_mapping.yaml"/>
     </export>
 </package>
 

@@ -18,6 +18,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/WateringStatus.msg"
     DEPENDENCIES builtin_interfaces std_msgs
 )
+install(
+    FILES my_bridge_mapping.yaml
+    DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
     find_package(ament_lint_auto REQUIRED)
